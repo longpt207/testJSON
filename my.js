@@ -1,5 +1,6 @@
+const url = "https://script.google.com/macros/s/AKfycbyvfys9yQPQPXPEgK86eEP9E9X8MaGR0ae2ncrRviYY/dev"
+
 function testGS() {
-    const url = "https://script.google.com/macros/s/AKfycbzuuQR2ky-fObjO73I2Rb04TyL5_51zfGPfCzUH9xllqaCtaGFYOpOS5zrFU9mPKO7qwQ/exec"
     fetch(url)
         .then(d => d.json())
         .then(d => {
@@ -8,7 +9,6 @@ function testGS() {
 }
 
 function addGS() {
-    const url = "https://script.google.com/macros/s/AKfycbzuuQR2ky-fObjO73I2Rb04TyL5_51zfGPfCzUH9xllqaCtaGFYOpOS5zrFU9mPKO7qwQ/exec"
     const data = {
         "name": "metabaseToken2",
         "status": "active",
